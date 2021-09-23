@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.contaner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}
+
+#list{
+    height: 100vh;
+    padding: 60px;
+    background-color: white;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 50px;
+}
+
+#text{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+}
+
+#itemContnar{
+    padding-top: 15px;
+}
+
+#item{
+    padding-top: 5px;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+}
